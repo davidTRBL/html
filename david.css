@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+header {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Padding around the navigation bar */
+    border-radius: 50%;
+    width:80%;
+    margin:auto;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    text-align: center; /* Center-align navigation items */
+    margin: 30px;
+    border-radius: 15px;
+    border-color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline; /* Display items inline */
+    margin-right: 20px; /* Add spacing between items */
+    border-radius: 10px;
+    border-color: black;
+}
+
+nav ul li a {
+    color:blue; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding inside each item */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darken background on hover */
+}
+body{
+    background-color:brown;
+}
+table{
+    align-self: center;
+    margin: auto;
+    padding:300px,300px;
+}
